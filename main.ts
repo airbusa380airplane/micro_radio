@@ -1,6 +1,6 @@
 radio.onReceivedNumber(function (receivedNumber) {
     if (receivedNumber == 4) {
-        basic.showString("test-tex")
+        basic.showString("test-text")
     }
     if (receivedNumber == 3) {
         basic.showLeds(`
